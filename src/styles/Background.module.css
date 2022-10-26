@@ -1,0 +1,17 @@
+.register_bg {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #DCFFCB 0%, #EAFFE0 100%);
+  font-family: var(--font-type);
+  padding-top: 15px;
+}
+
+.container {
+  padding: var(--container-padding);
+  margin: var(--container-center);
+  width: var(--container-width);
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}

@@ -1,0 +1,47 @@
+.wrapper_form {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 40px;
+  background: rgb(134 239 172);
+  color: #1E7201;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.bg_login_form {
+  background: linear-gradient(180deg, #DCFFCB -7.7%, #1E7201 23.9%);
+  width: 100%;
+  padding: 3px 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.account h5 {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.account .link {
+  text-decoration: none;
+  background: linear-gradient(180deg, #1F7301 18.23%, #FFE600 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

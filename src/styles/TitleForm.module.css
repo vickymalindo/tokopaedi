@@ -1,0 +1,16 @@
+.wrapper_title {
+  position: absolute;
+  z-index: 10;
+  left: 300;
+  top: 200;
+}
+
+.sign,
+.up {
+  font-size: 110px;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1F7301;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 12px 8px 6px #aaa;
+}
